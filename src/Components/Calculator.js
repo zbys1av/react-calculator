@@ -4,12 +4,12 @@ function Calculator(){
     return (
         <div className="calculator">
             <div className="container">
-                <div className="calculator__box">
+                <div className="calculator__box grid">
                     <div className="calculator__output">
                         <div className="calculator__prev"></div>
                         <div className="calculator__current"></div>
                     </div>
-                    <button className="calculator__clear">AC</button>
+                    <button className="calculator__clear wider">AC</button>
                     <button className="calculator__delete">DEL</button>
                     <button className="calculator__devide">/</button>
                     <button className="calculator__number">1</button>
@@ -25,7 +25,7 @@ function Calculator(){
                     <button className="calculator__number">9</button>
                     <button className="calculator__minus">-</button>
                     <button className="calculator__dot">.</button>
-                    <button className="calculator__equal">=</button>                    
+                    <button className="calculator__equal wider">=</button>                    
                 </div>
             </div>
         </div>
